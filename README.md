@@ -3,7 +3,7 @@ NGS Graph Generator: graph-based visualisation of RNA-seq data
 
 NGS graph generator supports the graph-based visualisation of RNA-seq data and provides a complementary approach to understanding transcript diversity and issues with assembly.  Following the mapping of reads to the reference genome, read to read comparison is performed on portions of the data (e.g. all reads mapping to a given gene) using Mega BLAST to provide a matrix of weighted similarity scores between reads.  
 
-This is a script that is used to take next generation gene sequencing data and perform read to read comparison in order to construct a graph based representation. The output is in the form of a .layout file which may be opened by the graph visualisation tool [BioLayout](http://www.biolayout.org/).
+This is a script that is used to take next generation gene sequencing data and perform read to read comparison in order to construct a graph based representation. The output is in the form of a .layout file which may be opened by the graph visualisation tool [Graphia Professional](https://kajeka.com/graphia-professional/).
 
 Prerequisites
 -------------
@@ -46,7 +46,7 @@ Where:
 For graph visualisation
 Output format
 
-The output of this program is a layout (.layout) file which can visualise using BioLayout Express3D software. Layout file is a text file that contains pairwise comparison of all reads of selected gene with edge weight. It also contains classsets which defines the nodes. For instance there will be a classsets called nodeclass which defines the nodes to exon and transcripts which it belongs.
+The output of this program is a layout (.layout) file which can visualise using Graphia Professional. Layout file is a text file that contains pairwise comparison of all reads of selected gene with edge weight. It also contains classsets which defines the nodes. For instance there will be a classsets called nodeclass which defines the nodes to exon and transcripts which it belongs.
 
 In this example below is a .layout format which is a text file contains all information of selected gene. 
 
@@ -70,8 +70,8 @@ In this example below is a .layout format which is a text file contains all info
 
 
 For graph visualisation of RNA-seq data, a user has to download:
-•	BioLayout Express3D software (http://www.biolayout.org/download/)
-Please note BioLayout Express3D uses high end 3D visualisation technology and the machine running the program will require a good graphics card, at least 4 Gb of RAM and preferably a 64 bit OS.  The better your machine the bigger the graphs you will be able to render and the smoother your interaction with them.
+•	Graphia Professional (https://kajeka.com/graphia-professional/)
+Please note Graphia Professional uses high end 3D visualisation technology and the machine running the program will require a good graphics card, at least 4 Gb of RAM and preferably a 64 bit OS.  The better your machine the bigger the graphs you will be able to render and the smoother your interaction with them.
 
 
 
